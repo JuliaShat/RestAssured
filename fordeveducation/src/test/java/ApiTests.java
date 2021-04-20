@@ -94,6 +94,6 @@ public class ApiTests {
 
         User newUserEmail = getNewUserEmail.as(User.class);
 
-        Assert.assertEquals("User is not found", newUserToAdd.getUsername(), newUserEmail.getUsername());
+       Assert.assertEquals("User is not found", newUserToAdd.getEmail(), newUserEmail.getEmail());
     }
 }
